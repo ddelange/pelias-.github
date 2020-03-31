@@ -1,7 +1,7 @@
 ---
 name: "\U0001F41E Bug Report"
 about: Let us know about an unexpected error, a crash, or an incorrect behavior.
-labels: 'bug_report'
+labels: 'bug'
 ---
 
 <!--
