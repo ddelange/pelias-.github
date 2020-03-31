@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community Support
+    url: https://gitter.im/pelias/pelias
+    about: Get support from our community in the Pelias group chat.
+  - name: Geocode Earth Cloud
+    url: https://geocode.earth
+    about: Sign up for a free API key and get started with Pelias instantly.
+  - name: Commercial Support
+    url: https://geocode.earth
+    about: Contact the project founders for commercial support for all Pelias products.
