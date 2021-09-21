@@ -1,0 +1,5 @@
+{
+    "name": "Pelias CI Workflow",
+    "description": "Test run, NPM publish, and Docker image build workflow for all Pelias repositories",
+    "iconName": "pelias_logo"
+}
