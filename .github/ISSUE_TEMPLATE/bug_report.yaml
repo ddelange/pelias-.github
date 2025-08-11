@@ -1,0 +1,54 @@
+name: 🐞︎ Bug Report
+description: Let us know about an unexpected error, a crash, or an incorrect behavior.
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ Please note that we reserve the issue tracker for bug reports and feature requests.
+        > For general usage questions, please use the [community chat room](https://gitter.im/pelias/pelias).   
+        
+        > 📚 If your issue relates to a specific Pelias sub-project, please open it in the project's own repository. The index of sub-projects is at https://github.com/pelias
+
+        > 💡 Bug reports which are clearly written and reproducible are more likely to get the attention of the developers who can help you.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: What happened? Please provide as much detail as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Which steps do we need to take to reproduce this error?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Github references
+      description: Which other related Issues or Pull Requests exist? https://github.com/search?type=issues&q=org%3Apelias+example
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description:  OS (e.g. Linux/Mac/Windows), Docker versions (e.g. `docker --version`, `docker-compose --version`), etc.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: If applicable, provide relevant log output. No need for backticks here.
+      render: shell
+  - type: textarea
+    id: data
+    attributes:
+      label: Data references
+      description: Provide any ids for, or links to, data referenced by this issue.
+  - type: input
+    id: organization
+    attributes:
+      label: Project or organization
+      description: Names of any projects or organizations you are representing.
